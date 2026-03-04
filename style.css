@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding-top: 90px;
   font-family: 'Poppins', sans-serif;
   background-color: #fdfaf5;
   color: #333;
@@ -49,25 +50,28 @@ nav a {
   font-size: 2.5rem;
 }
 
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  opacity: 0.9;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
 .btn {
   background: var(--gold);
   background-size: 200% 200%;
   color: #000;
   font-weight: 600;
-  transition: 0.4s;
-}
-
-.btn:hover {
-  background-position: right center;
-  transform: scale(1.05);
-}
-
-.btn-outline {
-  border: 2px solid #c6a64b;
-  padding: 10px 23px;
+  padding: 12px 28px;
   border-radius: 30px;
   text-decoration: none;
-  color: #c6a64b;
+  display: inline-block;
+  transition: all 0.4s ease;
 }
 
 .section {
@@ -83,16 +87,17 @@ nav a {
 
 .card {
   background: white;
-  padding: 30px;
-  margin: 15px;
-  width: 200px;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-  transition: 0.3s;
+  padding: 40px 30px;
+  margin: 20px;
+  width: 240px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  transition: all 0.4s ease;
 }
 
 .card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.12);
 }
 
 iframe {
@@ -119,4 +124,5 @@ form input, form textarea {
   border-radius: 50%;
   text-decoration: none;
 }
+
 
