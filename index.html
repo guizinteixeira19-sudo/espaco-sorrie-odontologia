@@ -3,67 +3,157 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Espaço Sorriê Odontologia - Excelência e acolhimento em cada atendimento. Agende sua consulta em Paulínia/SP.">
-  <title>Espaço Sorriê Odontologia</title>
+  <meta name="description" content="Espaço Sorriê Odontologia - Excelência e acolhimento em cada atendimento. Tratamentos modernos e atendimento humanizado em Paulínia/SP.">
+  <title>Espaço Sorriê Odontologia | Clínica Odontológica em Paulínia</title>
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+  <!-- CABEÇALHO -->
   <header class="header">
-    <div class="logo">Espaço Sorriê</div>
-    <nav class="nav-menu">
-      <a href="#sobre">Sobre</a>
-      <a href="#servicos">Serviços</a>
+    <div class="logo">
+      <a href="#inicio" style="text-decoration: none; color: inherit;">Espaço Sorriê</a>
+    </div>
+    <nav class="nav-menu" aria-label="Menu Principal">
+      <a href="#sobre">Quem Somos</a>
+      <a href="#tratamentos">Tratamentos</a>
+      <a href="#faq">Dúvidas</a>
       <a href="#contato">Contato</a>
     </nav>
+    <div class="header-social">
+      <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram">📸</a>
+    </div>
   </header>
 
   <main>
+    <!-- HERO SECTION -->
     <section class="hero" id="inicio">
       <div class="hero-content">
-        <h1>Seu sorriso merece cuidado especial.</h1>
-        <p>Excelência e acolhimento em cada atendimento.</p>
+        <span class="badge-destaque">Odontologia Especializada</span>
+        <h1>Seu sorriso e sua saúde merecem cuidado especial.</h1>
+        <p>Acreditamos que o cuidado odontológico vai além dos dentes: é sobre confiança, acolhimento e elevar sua autoestima com tecnologia e conforto.</p>
         <div class="buttons">
-          <a href="https://wa.me/5519953214847" target="_blank" rel="noopener noreferrer" class="btn">📅 Agendar Consulta</a>
-          <a href="#contato" class="btn-outline">📍 Como Chegar</a>
+          <a href="https://wa.me/5519953214847" target="_blank" rel="noopener noreferrer" class="btn">📅 Agendar Avaliação</a>
+          <a href="#contato" class="btn-outline">📍 Ver Localização</a>
         </div>
       </div>
     </section>
 
+    <!-- SOBRE NÓS -->
     <section id="sobre" class="section">
-      <div class="container">
-        <h2>Sobre a Clínica</h2>
-        <p>A Espaço Sorriê Odontologia é conduzida pela Dra. Larissa Romero e Dra. Aline Cordeiro, oferecendo atendimento humanizado, ambiente confortável e tecnologia moderna.</p>
-      </div>
-    </section>
-
-    <section id="servicos" class="section bg-light">
-      <div class="container">
-        <h2>Serviços</h2>
-        <div class="cards">
-          <article class="card">Clínica Geral</article>
-          <article class="card">Limpeza e Prevenção</article>
-          <article class="card">Clareamento Dental</article>
-          <article class="card">Ortodontia</article>
-          <article class="card">Estética Dental</article>
+      <div class="container container-grid">
+        <div class="sobre-texto">
+          <h2>Sobre o Espaço Sorriê</h2>
+          <p>Oferecemos um atendimento humanizado, em um ambiente pensado para o seu total conforto e equipado com tecnologia moderna para diagnósticos precisos.</p>
+          
+          <div class="profissionais-lista">
+            <div class="profissional">
+              <h3>Dra. Larissa Romero</h3>
+              <span class="cro-badge">CRO/SP: 000000</span>
+              <p>Especialista dedicada a transformar sorrisos com técnicas minimamente invasivas.</p>
+            </div>
+            <div class="profissional">
+              <h3>Dra. Aline Cordeiro</h3>
+              <span class="cro-badge">CRO/SP: 000000</span>
+              <p>Foco na saúde integral e no bem-estar do paciente durante todos os procedimentos.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Espaço para uma foto profissional das dentistas ou da clínica -->
+        <div class="sobre-imagem">
+          <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=600&q=80" alt="Dra. Larissa e Dra. Aline no consultório" style="width: 100%; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
         </div>
       </div>
     </section>
 
-    <section id="contato" class="section contato">
+    <!-- TRATAMENTOS -->
+    <section id="tratamentos" class="section bg-light">
+      <div class="container">
+        <div class="section-header">
+          <h2>Nossos Tratamentos</h2>
+          <p>Cuidado completo para a sua saúde bucal e estética facial.</p>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-icon">🦷</div>
+            <h3>Clínica Geral & Prevenção</h3>
+            <p>Limpezas profundas, restaurações e check-ups preventivos para manter sua saúde em dia.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon">✨</div>
+            <h3>Estética Dental</h3>
+            <p>Clareamento a laser, facetas e lentes de contato dental para um sorriso iluminado.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon">😁</div>
+            <h3>Ortodontia</h3>
+            <p>Aparelhos estéticos e alinhadores invisíveis para corrigir a mordida com discrição.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon">🛡️</div>
+            <h3>Periodontia & Cirurgias</h3>
+            <p>Saúde da gengiva e extrações realizadas com o máximo de conforto e sedação, se necessário.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ (Nova Seção Estratégica) -->
+    <section id="faq" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Dúvidas Frequentes</h2>
+          <p>Transparência e informação para você se sentir seguro.</p>
+        </div>
+        
+        <div class="faq-container">
+          <details class="faq-item">
+            <summary>De quanto em quanto tempo devo ir ao dentista?</summary>
+            <div class="faq-content">
+              <p>A periodicidade varia, mas sugerimos consultas a cada seis meses. Isso permite a prevenção de problemas e a manutenção de uma saúde bucal impecável.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>Como vocês lidam com o medo e ansiedade do dentista?</summary>
+            <div class="faq-content">
+              <p>Nosso ambiente é preparado para relaxar. Utilizamos um protocolo de atendimento humanizado, explicando cada passo, e oferecemos anestesia sem dor e técnicas de controle de ansiedade.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>Vocês atendem planos de saúde (convênios)?</summary>
+            <div class="faq-content">
+              <p>Priorizamos o atendimento particular para garantir o máximo de tempo, qualidade e materiais premium em seu tratamento. Entre em contato para consultar formas de pagamento facilitadas.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO E LOCALIZAÇÃO -->
+    <section id="contato" class="section bg-light contato">
       <div class="container container-contato">
         <div class="info-contato">
-          <h2>Contato</h2>
-          <p>📲 <strong>WhatsApp:</strong> (19) 95321-4847</p>
-          <address>
+          <h2>Agende sua Consulta</h2>
+          <p>Estamos prontos para receber você com um café quentinho e o melhor atendimento.</p>
+          
+          <div class="contato-detalhes">
+            <p>📲 <strong>WhatsApp:</strong> <a href="https://wa.me/5519953214847" target="_blank">(19) 95321-4847</a></p>
+            <p>📧 <strong>Email:</strong> contato@espacosorrie.com.br</p>
+          </div>
+
+          <address class="endereco">
+            <strong>Onde estamos:</strong><br>
             Rua Santa Cruz, 164 - Sala 04<br>
             Galeria Casa Verde<br>
-            Nova Paulínia - Paulínia/SP
+            Nova Paulínia - Paulínia/SP, 13140-000
           </address>
+          
           <iframe 
             src="https://www.google.com/maps?q=Rua+Santa+Cruz+164+Paulínia+SP&output=embed"
             title="Mapa de localização da clínica"
@@ -71,52 +161,68 @@
           </iframe>
         </div>
 
-        <form class="form-contato">
+        <form class="form-contato" action="#" method="POST">
           <h3>Envie uma mensagem</h3>
+          <p>Responderemos o mais rápido possível.</p>
           <input type="text" name="nome" placeholder="Seu Nome Completo" required>
-          <input type="tel" name="telefone" placeholder="Seu Telefone" required>
-          <textarea name="mensagem" placeholder="Como podemos ajudar?" rows="5" required></textarea>
-          <button type="submit" class="btn">Enviar Mensagem</button>
+          <input type="tel" name="telefone" placeholder="Seu WhatsApp" required>
+          <select name="assunto" required style="width: 100%; padding: 15px; margin-bottom: 20px; border: 1px solid #ddd; border-radius: 8px; font-family: inherit;">
+            <option value="" disabled selected>Qual seu interesse?</option>
+            <option value="avaliacao">Agendar Avaliação</option>
+            <option value="clareamento">Clareamento Dental</option>
+            <option value="dor">Urgência / Dor</option>
+            <option value="outro">Outros</option>
+          </select>
+          <textarea name="mensagem" placeholder="Como podemos ajudar?" rows="4" required></textarea>
+          <button type="submit" class="btn btn-full">Enviar Mensagem</button>
         </form>
       </div>
     </section>
   </main>
 
-  <a href="https://wa.me/5519953214847" target="_blank" rel="noopener noreferrer" class="whatsapp-float" aria-label="Falar no WhatsApp">
-    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 16 16">
+  <!-- RODAPÉ COMPLETO -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <h3 style="color: var(--gold-solid);">Espaço Sorriê</h3>
+        <p>Excelência e acolhimento em Paulínia. Transformando sorrisos e vidas com dedicação.</p>
+        <div class="footer-cro">
+          Responsável Técnica:<br>
+          Dra. Larissa Romero - CRO/SP 000000
+        </div>
+      </div>
+      
+      <div class="footer-links">
+        <h4>Acesso Rápido</h4>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Nossa Clínica</a></li>
+          <li><a href="#tratamentos">Tratamentos</a></li>
+          <li><a href="#faq">Dúvidas Frequentes</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Links Úteis</h4>
+        <ul>
+          <li><a href="https://wa.me/5519953214847" target="_blank">Fale no WhatsApp</a></li>
+          <li><a href="#" target="_blank">Siga no Instagram</a></li>
+          <li><a href="#" target="_blank">Avalie no Google</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Espaço Sorriê Odontologia. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- BOTÃO WHATSAPP FLUTUANTE -->
+  <a href="https://wa.me/5519953214847" target="_blank" rel="noopener noreferrer" class="whatsapp-float" aria-label="Agendar via WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" viewBox="0 0 16 16">
       <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c-.003 1.396.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
     </svg>
   </a>
 
   <script src="script.js"></script>
-</body>
-</html>
-</section>
-
-<section id="contato" class="section contato">
-  <h2>Contato</h2>
-  <p>📲 WhatsApp: (19) 95321-4847</p>
-  <p>
-    Rua Santa Cruz, 164 - Sala 04<br>
-    Galeria Casa Verde<br>
-    Nova Paulínia - Paulínia/SP
-  </p>
-
-  <iframe 
-    src="https://www.google.com/maps?q=Rua+Santa+Cruz+164+Paulínia+SP&output=embed"
-    loading="lazy">
-  </iframe>
-
-  <form>
-    <input type="text" placeholder="Nome" required>
-    <input type="tel" placeholder="Telefone" required>
-    <textarea placeholder="Mensagem" required></textarea>
-    <button type="submit" class="btn">Enviar</button>
-  </form>
-</section>
-
-<a href="https://wa.me/5519953214847" class="whatsapp-float">💬</a>
-
-<script src="script.js"></script>
 </body>
 </html>
